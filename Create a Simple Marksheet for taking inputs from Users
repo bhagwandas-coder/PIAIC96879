@@ -1,0 +1,37 @@
+# Input Maximum Marks for Subject
+marks_phy_max= int(input('Enter Your Maximum Marks in Physics  : '))
+marks_che_max= int(input('Enter Your Maximum Marks in Chemistry : '))
+marks_math_max= int(input('Enter Your Maximum Marks in Math  : '))
+marks_eng_max= int(input('Enter Your Maximum Marks in English : '))
+marks_urdu_max= int(input('Enter Your Maximum Marks in Urdu : '))
+
+
+
+# Input Obtained Marks for Subject
+
+marks_phy= int(input('Enter Your Obtained Marks in Physics  : '))
+marks_che= int(input('Enter Your Obtained Marks in Chemistry : '))
+marks_math= int(input('Enter Your Obtained Marks in Math : '))
+marks_eng= int(input('Enter Your Obtained Marks in English  : '))
+marks_urdu= int(input('Enter Your Obtained Marks in Urdu  : '))
+
+Total_Maximum_Marks=(marks_phy_max+marks_che_max+ marks_math_max+ marks_eng_max+marks_urdu_max)
+Total_Obtained_Marks= (marks_phy+marks_che+marks_math+marks_eng+marks_urdu)
+Obtained_Percentage = (Total_Obtained_Marks/Total_Maximum_Marks)*100
+
+
+print ('*********** Your Marks*********** ')
+print ('   Subject   ',  '   Max Marks   ',   '   Obtained Marks   ')
+print ('   Physcis   ',  '   ', marks_phy_max,   '              ', marks_phy)
+print ('   Chemistry ',  '   ', marks_che_max,   '              ', marks_che)
+print ('   Maths     ',  '   ', marks_math_max,  '              ', marks_math)
+print ('   Englis    ',  '   ', marks_eng_max,   '              ', marks_eng)
+print ('   Urdu      ',  '   ', marks_urdu_max,  '              ', marks_urdu)
+
+print ('*********** Your Marksheet is Read *********** ')
+
+print ('   Total_Maximum_Marks   ' , Total_Maximum_Marks )
+
+print ('   Total_Obtained_Marks   ' , Total_Obtained_Marks )
+
+print ('   Obtained_Percentage   ' , Obtained_Percentage )
